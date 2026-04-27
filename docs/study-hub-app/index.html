@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1220">
+  <title>Databricks Study Hub</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <button id="menu-btn" aria-label="Toggle navigation">☰</button>
+    <h1>Databricks Study Hub</h1>
+    <button id="install-btn" class="ghost" hidden>Install</button>
+  </header>
+
+  <div class="layout">
+    <aside id="sidebar" class="sidebar">
+      <h2>Notes</h2>
+      <nav>
+        <ul id="doc-list"></ul>
+      </nav>
+    </aside>
+
+    <main>
+      <article id="content" class="content">
+        <p>Loading...</p>
+      </article>
+    </main>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
